@@ -20,3 +20,5 @@
 ## Consumer groups
 `A consumer group contains one or more consumers working together to process the messages.`
 
+## URL's
+<li><a>https://kafka.apache.org/quickstart</a> </li>
