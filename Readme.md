@@ -22,3 +22,10 @@
 
 ## URL's
 <li><a>https://kafka.apache.org/quickstart</a> </li>
+
+
+## Lecture 10 : Configure Kafka Producer and Consumer for JSON Serializer and Deserializer
+`How to send and receive a Java Object as a JSON byte[] to and from Apache Kafka.`
+`Apache kafka stores and trasport byte[].There are a number of built-in serializers and deserializers but it doesn't include any for JSON.Spring kafka created a JSONSerializer and JSONDeserializer which we can use to convert Java Objects to and from JSON.`
+### Approach
+`We will a send java object as JSON byte[] to a kafka topic using a JSONSerializer.Afterward, we will configure how to receive a JSON byte[] and automatically convert it to a Java Object using a JSONDeserializer.`
